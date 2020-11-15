@@ -1,5 +1,6 @@
 import "package:flutter/material.dart";
 import "news.dart";
+import 'package:intl/intl.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -54,6 +55,8 @@ class _HomePageState extends State<HomePage> {
                         itemBuilder: (context, index) {
                           return ListTile(
                             title: Text(newsList[index].title),
+                            subtitle: Text(DateFormat.Hm()
+                                .format(newsList[index].publishedAt)),
                             leading: Image.network(newsList[index].urltoimage),
                           );
                         },
