@@ -93,8 +93,16 @@ class _PlayerWidgetState extends State<PlayerWidget> {
           )),
       IconButton(
         icon: _isPlaying
-            ? Icon(Icons.pause, color: Colors.black)
-            : Icon(Icons.play_arrow, color: Colors.black),
+            ? Icon(
+                Icons.pause,
+                color: Colors.black,
+                size: 45.0,
+              )
+            : Icon(
+                Icons.play_arrow,
+                color: Colors.black,
+                size: 45.0,
+              ),
         onPressed: () {
           _isPlaying ? _pause() : _play(body);
         },
