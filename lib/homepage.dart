@@ -1,6 +1,7 @@
 import "package:flutter/material.dart";
 import "news.dart";
 import 'package:intl/intl.dart';
+import "player.dart";
 
 class HomePage extends StatefulWidget {
   @override
@@ -58,6 +59,9 @@ class _HomePageState extends State<HomePage> {
                             subtitle: Text(DateFormat.Hm()
                                 .format(newsList[index].publishedAt)),
                             leading: Image.network(newsList[index].urltoimage),
+                            trailing: PlayerWidget(
+                              body: newsList[index].content,
+                            ),
                           );
                         },
                       ),
