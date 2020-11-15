@@ -1,6 +1,6 @@
 # NewsAudioBook 
-![App Image](pic_1.jpg)
-![App Image](pic_2.jpg)
+ <span><img src="pic_1.jpg" width="250"/></span>
+ <span><img src="pic_2.jpg" width="250"/></span>
 
 ## OverView
 > Many people like to listen the news rather than reading. People while driving or doing some other task can also get the new by listining rather than reading so here come `NewsAudioBook` in action you can listen news jsut by tapping on the play button and this app will read news for you.
