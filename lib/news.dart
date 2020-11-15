@@ -4,7 +4,7 @@ import "dart:convert";
 
 class News {
   List<Article> news = [];
-  String api_key = "0fd33ef22d9443c79dab745fab211607";
+  String api_key = "API Key";
   String headlines = "top-headLines";
   Future<void> getNews() async {
     String url =

@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
 import "dart:convert";
 
-var api_key = "AIzaSyAy_Op1z1YsK1_FixYAmdSV8vcGdRNrP3M";
+var api_key = "API key";
 
 Future<http.Response> voiceResponse(String text) async {
   String url =
