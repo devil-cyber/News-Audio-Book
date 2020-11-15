@@ -1,7 +1,8 @@
 # NewsAudioBook 
  <span><img src="pic_1.jpg" width="250"/></span>
  <span><img src="pic_2.jpg" width="250"/></span>
-
+[App Download Link](https://drive.google.com/file/d/1bQem6ope72Jod8TzzkcrxzcN-muIj1df/view?usp=drivesdk)
+## Not ready for production yet 👍
 ## OverView
 > Many people like to listen the news rather than reading. People while driving or doing some other task can also get the new by listining rather than reading so here come `NewsAudioBook` in action you can listen news jsut by tapping on the play button and this app will read news for you.
 
